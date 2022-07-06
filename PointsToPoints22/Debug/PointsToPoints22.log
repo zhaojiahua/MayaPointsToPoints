@@ -1,0 +1,18 @@
+﻿生成启动时间为 2022/6/22 15:00:46。
+     1>项目“E:\AAA_myself\visualstudio2015\PointsToPoints22\PointsToPoints22\PointsToPoints22.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I"C:\Program Files\Autodesk\Maya2022\include" /Zi /nologo /W3 /WX- /Od /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D NT_PLUGIN /D _HAS_ITERATOR_DEBUGGING=0 /D _SECURE_SCL=0 /D _SECURE_SCL_THROWS=0 /D _SECURE_SCL_DEPRECATE=0 /D _CRT_SECURE_NO_DEPRECATE /D TBB_USE_DEBUG=0 /D __TBB_LIB_NAME=tbb.lib /D REQUIRE_IOSTREAM /D AW_NEW_IOSTREAMS /D Bits64_ /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Debug\\" /Fd"Debug\PointsToPoints22.pdb" /Gd /TP /errorReport:prompt pluginMain.cpp PointsToPoints22Cmd.cpp
+         PointsToPoints22Cmd.cpp
+         pluginMain.cpp
+     1>C:\Program Files\Autodesk\Maya2022\include\maya/MApiVersion.h(34): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\PointsToPoints22.mll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\Maya2022\lib" Foundation.lib OpenMaya.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Debug\PointsToPoints22.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"Debug\PointsToPoints22.lib" /MACHINE:X64 /export:initializePlugin /export:uninitializePlugin /DLL Debug\pluginMain.obj
+         Debug\PointsToPoints22Cmd.obj
+           正在创建库 Debug\PointsToPoints22.lib 和对象 Debug\PointsToPoints22.exp
+         PointsToPoints22.vcxproj -> E:\AAA_myself\visualstudio2015\PointsToPoints22\PointsToPoints22\Debug\PointsToPoints22.mll
+     1>已完成生成项目“E:\AAA_myself\visualstudio2015\PointsToPoints22\PointsToPoints22\PointsToPoints22.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.54
